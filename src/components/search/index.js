@@ -13,11 +13,12 @@ import config from '../../../config.js';
 import styled from '@emotion/styled';
 import { css } from '@emotion/react';
 import { PoweredBy } from './styles';
-import { Search } from '@styled-icons/fa-solid/Search';
+
+import { Searchengin } from '@styled-icons/fa-brands/Searchengin';
 import Input from './input';
 import * as hitComps from './hitComps';
 
-const SearchIcon = styled(Search)`
+const SearchIcon = styled(Searchengin)`
   width: 1em;
   pointer-events: none;
 `;
