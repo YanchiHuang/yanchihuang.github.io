@@ -98,6 +98,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
             <div className={'navBarHeader'}>
               <Link to={finalLogoLink} className={'navBarBrand'}>
                 <img
+                  style={{ width: '55px' }}
                   className={'img-responsive displayInline'}
                   src={logo.image !== '' ? logo.image : logoImg}
                   alt={'logo'}
